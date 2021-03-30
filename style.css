@@ -1,21 +1,21 @@
 #intro{
     background-color: antiquewhite;
     text-align: center;
+    padding: 20px;
 }
 #team{
     background-color: sandybrown;
     text-align: center;
+    padding: 20px;
 }
 #rescue{
     background-color: snow;
     text-align: center;
+    padding: 20px;
 }
 h1{
     color: tomato;
 }
 .morado{
     color: purple
-}
-.relleno{
-    padding: 20px;
 }
