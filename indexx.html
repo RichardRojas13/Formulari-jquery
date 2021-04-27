@@ -6,24 +6,18 @@
     <meta name="description" content="Mi Segundo Formulario" />
     <link rel="stylesheet" href="./style.css">
 
-<script>
-function suma(){
-    var n1 = document.getElementById("num1").value;
-
-    var n2 = document.getElementById("num2").value;
-
-    var n3 = document.getElementById("num3").value;
-
-    var n4 = document.getElementById("num4").value;
-
-    var sum = parseInt (n1) + parseInt (n2);
-    var suma = parseInt (n3) + parseInt (n4);
-    var multi = parseInt (sum) * parseInt (suma);
-
-    alert("La multiplicacion es de: "*multi);
-}
-
-</script>
+    <script>
+        function suma(){
+            var n1 = document.getElementById("numero1").value;
+            var n2 = document.getElementById("numero2").value;
+            var n3 = document.getElementById("numero3").value;
+            var n4 = document.getElementById("numero4").value;
+            var suma = parseInt(n1) + parseInt(n2);
+            var suma2 = parseInt(n3) + parseInt(n4);
+            var multi = parseInt(suma) * parseInt(suma2)
+            alert("multi es: " +multi);
+        }
+    </script>
 
 </head>
 <body>
@@ -31,26 +25,26 @@ function suma(){
     <form>
         <div class="form-group">
             <label for="num1">Número 1</label>
-            <input type="number" class="form-control" id="num1" name="num1" />           
+            <input type="number" class="form-control" id="num1" name="num1"/>
         </div>
 
         <div class="form-group">
             <label for="num2">Número 2</label>
-            <input type="number" class="form-control" id="num2" name="num2" />
+            <input type="number" class="form-control" id="num2" name="num2"/>
         </div>
 
         <div class="form-group">
-            <label for="num2">Número 3</label>
-            <input type="number" class="form-control" id="num3" name="num3" />
+            <label for="num1">Número 3</label>
+            <input type="number" class="form-control" id="num3" name="num3"/>
         </div>
 
         <div class="form-group">
-            <label for="num2">Número 4</label>
-            <input type="number" class="form-control" id="num4" name="num4" />
+            <label for="num1">Número 4</label>
+            <input type="number" class="form-control" id="num4" name="num4"/>
         </div>
 
-        <button type="submit" class="btn btn-primary" onclick="multi()">Calcular</button>
+        <button type="submit" class="btn btn-primary" onclick="suma()">Operaciones</button>
     </form>
 
 </body>
-</html>
+</html
