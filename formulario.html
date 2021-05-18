@@ -30,10 +30,17 @@
             <label for="name">Nombre Completo <span>(Min 6 caracteres)</span></label>
             <input id="nameUsuario" name="nameUsuario" minlength="6" type="text" class="form-control" placeholder="Ingresa tu Nombre Completo" required>
         </div>
+
         <div>
             <label for="email">E-Mail <span>(Requerido)</span></label>
             <input id="emailUsuario" type="email" name="emailUsuario" class="form-control" placeholder="Ingresa tu email" required>
         </div>
+
+        <div>
+            <label for="number">Numero de telefono</label>
+            <input id="numeroTelefono" type="number" name="numeroTelefono" class="form-control" minlength="9" placeholder="Ingresa tu numero">
+        </div>
+
         <div>
             <input class="btn btn-danger" id="enviar" type="submit" value="Enviar">
             <input type="reset" clas="btn btn-primary" id="limpiar" value="Limpiar">
