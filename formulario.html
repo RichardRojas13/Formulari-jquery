@@ -22,17 +22,17 @@
 
 <body>
 
-<div class="form-group">
 <h2>Formulario de Registro</h2>
+<div class="form-group">
 
     <form id="basic-form" action="" method="post">
-        <div">
+        <div class="form-group">
             <label for="name">Nombre Completo <span>(Min 6 caracteres)</span></label>
             <input id="name" name="name" minlength="6" type="text" required>
         </div>
-        <div">
+        <div>
             <label for="email">E-Mail <span>(Requerido)</span></label>
-            <input id="email" type="email" name="email" required>
+            <input id="emailUsuario" type="email" name="emailUsuario" class="form-control" placeholder="Ingresa tu email" required>
         </div>
         <div>
             <input class="submit" type="submit" value="SUBMIT">
