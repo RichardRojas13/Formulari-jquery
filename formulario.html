@@ -23,7 +23,7 @@
 <body  bgcolor = "celeste">
 
 <h2>Formulario de Registro</h2>
-<div class="form-group">
+<div class="row">
 
     <form id="basic-form" action="" method="post">
         <div>
@@ -40,6 +40,12 @@
             <label for="number">Numero de telefono</label>
             <input id="numeroTelefono" type="number" name="numeroTelefono" class="form-control" minlength="9" placeholder="Ingresa tu numero">
         </div>
+
+        <div>
+            <label for="ciudad">Ciudad de residencia</label>
+            <input id="ciudadResidecia" type="text" name="ciudadResidecia" class="form-control" placeholder="Ingresa tu residencia" required>
+        </div>
+        
 
         <div>
             <input class="btn btn-danger" id="enviar" type="submit" value="Enviar">
