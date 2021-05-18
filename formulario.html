@@ -4,7 +4,8 @@
     <title>Formulario ONG</title>
     <meta charset="utf-8" />
     <meta name="Formulario ong" content="Formulario"/>
-
+    <!--CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
@@ -19,19 +20,21 @@
 
 <body>
 
-    <form id="basic-form" action="" method="post">
-        <p>
-            <label for="name">Name <span>(required, at least 3 characters)</span></label>
-            <input id="name" name="name" minlength="3" type="text" required>
-        </p>
-        <p>
-            <label for="email">E-Mail <span>(required)</span></label>
-            <input id="email" type="email" name="email" required>
-        </p>
-        <p>
-            <input class="submit" type="submit" value="SUBMIT">
-        </p>
-    </form>
-
+<h2>Formulario de Registro</h2>
+<div>
+<form id="basic-form" action="" method="post">
+    <p>
+        <label for="name">Name <span>(required, at least 3 characters)</span></label>
+        <input id="name" name="name" minlength="3" type="text" required>
+    </p>
+    <p>
+        <label for="email">E-Mail <span>(required)</span></label>
+        <input id="email" type="email" name="email" required>
+    </p>
+    <p>
+        <input class="submit" type="submit" value="SUBMIT">
+    </p>
+</form>
+</div>
 </body>
 </html>
