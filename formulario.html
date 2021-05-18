@@ -26,28 +26,28 @@
 <div class="row">
 
     <form id="basic-form" action="" method="post">
-        <div>
+        <div class="form-group">
             <label for="name">Nombre Completo <span>(Min 6 caracteres)</span></label>
             <input id="nameUsuario" name="nameUsuario" minlength="6" type="text" class="form-control" placeholder="Ingresa tu Nombre Completo" required>
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="email">E-Mail <span>(Requerido)</span></label>
             <input id="emailUsuario" type="email" name="emailUsuario" class="form-control" placeholder="Ingresa tu email" required>
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="number">Numero de telefono</label>
             <input id="numeroTelefono" type="number" name="numeroTelefono" class="form-control" minlength="9" placeholder="Ingresa tu numero">
         </div>
 
-        <div>
+        <div class="form-group">
             <label for="ciudad">Ciudad de residencia</label>
             <input id="ciudadResidecia" type="text" name="ciudadResidecia" class="form-control" placeholder="Ingresa tu residencia" required>
         </div>
         
 
-        <div>
+        <div class="form-group">
             <input class="btn btn-danger" id="enviar" type="submit" value="Enviar">
             <input type="reset" clas="btn btn-primary" id="limpiar" value="Limpiar">
         </div>
